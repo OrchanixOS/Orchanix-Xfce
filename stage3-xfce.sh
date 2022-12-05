@@ -524,7 +524,7 @@ cd lightdm-gtk-greeter-2.0.8
 ./configure --prefix=/usr --sysconfdir=/etc --libexecdir=/usr/lib/lightdm --sbindir=/usr/bin --disable-libido --disable-libindicator --disable-maintainer-mode --disable-static --enable-kill-on-sigterm --with-libxklavier
 make
 make install
-sed -i 's/#background=/background = \/usr\/share\/backgrounds\/xfce\/Orchanix-Gray-Middle.png/' /etc/lightdm/lightdm-gtk-greeter.conf
+sed -i 's/#background=/background = \/usr\/share\/backgrounds\/xfce\/Orchanix-Gray-Right-Corner.png/' /etc/lightdm/lightdm-gtk-greeter.conf
 install -t /usr/share/licenses/lightdm-gtk-greeter -Dm644 COPYING
 systemctl enable lightdm
 cd ..
